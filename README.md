@@ -6,8 +6,8 @@ Eventually I will include an interactive tool where users can drill down for dat
 
 This project also has a [Tableau version](https://public.tableau.com/profile/bogdan.rabanca#!/vizhome/dogsofnewyork3/Story1).
 
-Packages you'll need installed: 
+Packages you'll need to install: 
 
-pandas
+[pandas](https://pandas.pydata.org/)
 
-bokeh
+[bokeh](https://bokeh.pydata.org/en/latest/)
