@@ -7,5 +7,7 @@ Eventually I will include an interactive tool where users can drill down for dat
 This project also has a [Tableau version](https://public.tableau.com/profile/bogdan.rabanca#!/vizhome/dogsofnewyork3/Story1).
 
 Packages you'll need installed: 
+
 pandas
+
 bokeh
