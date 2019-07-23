@@ -11,3 +11,5 @@ Packages you'll need to install:
 [pandas](https://pandas.pydata.org/)
 
 [bokeh](https://bokeh.pydata.org/en/latest/)
+
+Note: Initially I downloaded the dog license data programtically from NYC Open Data. Unfortunately, the city updated the file with a new file containing less information (most importantly, the new file lacks neighborhood data) and using that file will make some visualizations unavailable. So now I am just using an older version of the file in .csv format.
