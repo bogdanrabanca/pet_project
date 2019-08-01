@@ -1,10 +1,16 @@
 # pet_project
 This project analyzes data about the dog population of New York City.
-I gathered pet data as well as neighborhood data from [NYC Open Data](https://opendata.cityofnewyork.us/), and I scraped some additional data on dog weights and neighborhood populations. I look into what are the most common names and breeds in NYC as a whole and in specific boroughs.
+I gathered pet data as well as neighborhood maps and population from [NYC Open Data](https://opendata.cityofnewyork.us/), and I scraped some additional data on dog weights and breed images. After cleaning up the data and organizing it, I look into four main questions:
 
-Eventually I will include an interactive tool where users can drill down for data at neighborhood level. I also plan to include map charts showing average dog weights and dog counts for each neighborhood. 
+(1) what are the most popular names? (in NYC, by borough, by year)
 
-This project also has a [Tableau version](https://public.tableau.com/profile/bogdan.rabanca#!/vizhome/dogsofnewyork3/Story1).
+(2) what are the most popular breeeds? (same as above)
+
+(3) what is the distribution of dog weights across the city? more specifically, are there particualr neighbohoods where dogs are relatively heavier?
+
+(4) what is the ratio of dogs to human population per neighborhood?
+
+This project also has a (slightly different) [Tableau version](https://public.tableau.com/profile/bogdan.rabanca#!/vizhome/dogsofnewyork3/Story1).
 
 Packages you'll need to install: 
 
@@ -12,4 +18,4 @@ Packages you'll need to install:
 
 [bokeh](https://bokeh.pydata.org/en/latest/)
 
-Note: Initially I downloaded the dog license data programtically from NYC Open Data. Unfortunately, the city updated the file with a new file containing less information (most importantly, the new file lacks neighborhood data) and using that file will make some visualizations unavailable. So now I am just using an older version of the file in .csv format.
+Note: Initially I downloaded the dog license data programtically from NYC Open Data. Unfortunately, the city updated the file with a new file containing less information (most importantly, the new file lacks neighborhood data) and using that file will make some visualizations unavailable. So now I am just using the older version of the file in .csv format.
